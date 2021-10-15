@@ -24,5 +24,5 @@ public class ParticipanteModel {
     private String cpf;
 
     @Column(unique = true, nullable = false)
-    private String[] item;
+    private String item;
 }
