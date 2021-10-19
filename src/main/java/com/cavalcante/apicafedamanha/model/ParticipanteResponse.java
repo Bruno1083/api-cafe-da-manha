@@ -1,4 +1,4 @@
-package model;
+package com.cavalcante.apicafedamanha.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
