@@ -1,15 +1,9 @@
 package com.cavalcante.apicafedamanha.controller;
 
 import com.cavalcante.apicafedamanha.model.ParticipanteModel;
-<<<<<<< HEAD:src/main/java/com/cavalcante/apicafedamanha/controller/ParticipanteController.java
 import com.cavalcante.apicafedamanha.repository.ParticipanteRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-=======
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import com.cavalcante.apicafedamanha.repository.ParticipanteRepository;
->>>>>>> 9893bd27e3ca1e4a705db9ab83d01a67caf6521c:src/main/java/com/cavalcante/apicafedamanha/controller/ParticipanteController.java
 
 import java.util.List;
 
