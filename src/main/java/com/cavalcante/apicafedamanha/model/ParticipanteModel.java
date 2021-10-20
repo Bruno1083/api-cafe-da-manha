@@ -1,4 +1,4 @@
-package model;
+package com.cavalcante.apicafedamanha.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity(name= "Participante")
+@Entity(name= "participante")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter

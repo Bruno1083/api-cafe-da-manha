@@ -1,13 +1,14 @@
-package controller;
+package com.cavalcante.apicafedamanha.controller;
 
-import model.ParticipanteModel;
+import com.cavalcante.apicafedamanha.model.ParticipanteModel;
+import com.cavalcante.apicafedamanha.repository.ParticipanteRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import repository.ParticipanteRepository;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping({"/participante"})
 public class ParticipanteController {
     private ParticipanteRepository repository;
